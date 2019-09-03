@@ -1,9 +1,9 @@
 ## Captain_Hook
 SlackからDiscordへメッセージを送るBotです。
 
-Slackでの様子
+Slackでの様子(URLはぼかしています)
 
-![captainhook010](img/captainhook010.png "サンプル")
+![captainhook01](img/captainhook01.png "サンプル")
 
 Discordでの様子
 
