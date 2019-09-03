@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>BOOKCROOM</title>
+</head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<body>
+
+    <div id="room0"><%= room %></div>
+
+    <script>
+
+        $(function () {
+            let text = document.getElementById("room0").textContent + "号室を予約したぜ～"
+            $.ajax({
+                url:
+                    'https://discordapp.com/api/webhook/XXXXXXXXX',
+                method: 'POST',
+                data: {
+                    "content": text
+                }
+            })
+
+                .done((data) => {
+                    $('.result').html(data);
+                    console.log(data);
+                })
+                .fail((data) => {
+                    $('.result').html(data);
+                    console.log(data);
+                })
+                .always((data) => {
+                })
+        })
+
+    </script>
+
+</body>
+
+</html>
