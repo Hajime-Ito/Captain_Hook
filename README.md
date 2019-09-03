@@ -3,7 +3,7 @@ SlackからDiscordへメッセージを送るBotです。
 
 Slackでの様子
 
-![captainhook01](img/captainhook01.png "サンプル")
+![captainhook010](img/captainhook010.png "サンプル")
 
 Discordでの様子
 
