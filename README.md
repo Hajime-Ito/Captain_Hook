@@ -20,3 +20,5 @@ Discordの会議室の取り合いを避けるためによく会議が提案さ�
 
 ＊実際はfirebase cloud functions でルーティングしています。
 
+* firebaseの無料枠ではAPIの応答ができなかったのでget処理をしてurlを返しそのリンクを踏んでもらうことで解決しています
+
